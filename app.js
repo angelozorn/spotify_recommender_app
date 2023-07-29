@@ -8,7 +8,7 @@ const port = 8000;
 const spotifyApi = new SpotifyWebApi({
   clientId: 'b00fa2c9d6674dc389b320778744472a',
   clientSecret: '43b4bfc8c0c241d4a503c221b5ac7ea6',
-  redirectUri: `http://localhost:8000/callback`
+  redirectUri: `http://54.227.4.150:8000/callback`
 });
 
 // Serve static files
