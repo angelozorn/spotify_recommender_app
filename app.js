@@ -2,13 +2,13 @@ const express = require('express');
 const SpotifyWebApi = require('spotify-web-api-node');
 
 const app = express();
-const port = 80;
+const port = 8000;
 
 // Configure Spotify API
 const spotifyApi = new SpotifyWebApi({
   clientId: 'b00fa2c9d6674dc389b320778744472a',
   clientSecret: '43b4bfc8c0c241d4a503c221b5ac7ea6',
-  redirectUri: `http://edmspotifyrecommender.com`
+  redirectUri: `http://edmspotifyrecommender.com:8000/callback`
 });
 
 // Serve static files
