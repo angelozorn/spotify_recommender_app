@@ -8,7 +8,7 @@ const port = 8000;
 const spotifyApi = new SpotifyWebApi({
   clientId: 'b00fa2c9d6674dc389b320778744472a',
   clientSecret: '43b4bfc8c0c241d4a503c221b5ac7ea6',
-  redirectUri: `http://edmspotifyrecommender.com/callback`
+  redirectUri: `http://edmsongrecommender.com/callback`
 });
 
 // Serve static files
